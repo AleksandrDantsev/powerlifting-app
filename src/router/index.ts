@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 
-import App from "../App.vue";
+import MeasurementsBody from "../pages/MeasurementsBody.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'App',
-    component: App,
+    name: 'MeasurementsBody',
+    component: MeasurementsBody,
   },
 ];
 
